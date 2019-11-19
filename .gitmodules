@@ -1,0 +1,8 @@
+[submodule "rte"]
+	path = rte
+	url = ../rte.git
+	branch = ov3
+[submodule "rte_misc"]
+	path = rte_misc
+	url = ../rte_misc.git
+	branch = ov3
