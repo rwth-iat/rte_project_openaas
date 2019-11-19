@@ -22,7 +22,7 @@
 
 
 #include "openAASDiscoveryServer.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 
 
 OV_DLLFNCEXPORT OV_RESULT openAASDiscoveryServer_CAWrapper_checkCertificate(OV_INSTPTR_openAASDiscoveryServer_CAWrapper this) {

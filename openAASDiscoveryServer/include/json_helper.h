@@ -2,7 +2,7 @@
 #define __JSON_H_
 
 #include "jsmn.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 
 typedef struct json_data{
     jsmntok_t* token;

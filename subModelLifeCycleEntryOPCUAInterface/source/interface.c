@@ -22,8 +22,8 @@
 
 
 #include "subModelLifeCycleEntryOPCUAInterface.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_result.h"
+#include "ov_macros.h"
+#include "ov_result.h"
 
 OV_INSTPTR_subModelLifeCycleEntryOPCUAInterface_interface pinterface = NULL;
 

@@ -20,7 +20,7 @@
 #endif
 
 #include "openaasHTTP.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #ifdef ov_library_open_openaasHTTP
 #undef ov_library_open_openaasHTTP
 #endif

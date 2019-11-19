@@ -19,13 +19,13 @@
 #endif
 
 #include "servicesOPCUAInterface.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #include "ksbase.h"
 #include "opcua.h"
 #include "opcua_helpers.h"
 #include "NoneTicketAuthenticator.h"
-#include "libov/ov_path.h"
-#include "libov/ov_memstack.h"
+#include "ov_path.h"
+#include "ov_memstack.h"
 #include "ks_logfile.h"
 #include "nodeset_services.h"
 

@@ -20,8 +20,8 @@
 #endif
 
 
-#include "libov/ov_macros.h"
-#include "libov/ov_time.h"
+#include "ov_macros.h"
+#include "ov_time.h"
 #include "subModelLifeCycleEntry.h"
 
 

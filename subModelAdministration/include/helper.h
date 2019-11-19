@@ -9,7 +9,7 @@
 #ifndef HELPERS_H_
 #define HELPERS_H_
 
-#include "libov/ov_result.h"
+#include "ov_result.h"
 
 OV_RESULT checkForSameAAS(OV_INSTPTR_ov_object pobject1, OV_INSTPTR_ov_object domain2);
 

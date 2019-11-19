@@ -22,7 +22,7 @@
 
 
 #include "openaasOPCUAInterface.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #include "nodeset_openaas.h"
 
 OV_INSTPTR_openaasOPCUAInterface_interface pinterface = NULL;

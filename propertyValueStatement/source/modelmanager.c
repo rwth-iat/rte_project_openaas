@@ -22,11 +22,11 @@
 
 
 #include "propertyValueStatement.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #include "identification_helpers.h"
 #include "propertyValueStatement_helpers.h"
-#include "libov/ov_path.h"
-#include "libov/ov_result.h"
+#include "ov_path.h"
+#include "ov_result.h"
 
 
 

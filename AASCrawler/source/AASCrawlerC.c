@@ -22,8 +22,8 @@
 
 
 #include "AASCrawler.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_path.h"
+#include "ov_macros.h"
+#include "ov_path.h"
 
 struct statement{
 	OV_STRING carrierID;

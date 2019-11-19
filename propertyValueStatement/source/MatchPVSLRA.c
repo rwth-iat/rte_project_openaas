@@ -23,8 +23,8 @@
 
 #include "propertyValueStatement.h"
 #include "propertyValueStatement_helpers.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_path.h"
+#include "ov_macros.h"
+#include "ov_path.h"
 
 
 OV_DLLFNCEXPORT OV_UINT propertyValueStatement_MatchPVSLRA_matchPVSLRA(OV_STRING requirementListPath, OV_STRING assuranceListPath, OV_BOOL *match, OV_STRING *matchText, OV_STRING *errorText) {

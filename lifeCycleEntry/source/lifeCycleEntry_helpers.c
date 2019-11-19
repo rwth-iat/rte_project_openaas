@@ -11,9 +11,9 @@
 
 #include "lifeCycleEntry.h"
 #include "lifeCycleEntry_helpers.h"
-#include "libov/ov_database.h"
-#include "libov/ov_time.h"
-#include "libov/ov_macros.h"
+#include "ov_database.h"
+#include "ov_time.h"
+#include "ov_macros.h"
 
 OV_DLLFNCEXPORT LifeCycleEntry* LifeCycleEntry_new(){
 	LifeCycleEntry* this = ov_database_malloc(sizeof(LifeCycleEntry));

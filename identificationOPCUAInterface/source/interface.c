@@ -22,8 +22,8 @@
 
 
 #include "identificationOPCUAInterface.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_result.h"
+#include "ov_macros.h"
+#include "ov_result.h"
 #include "nodeset_identification.h"
 #include "ua_identification_generated.h"
 

@@ -21,7 +21,7 @@
 #endif
 
 
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #include "subModelLifeCycleEntry.h"
 
 OV_DLLFNCEXPORT void subModelLifeCycleEntry_HMIHelperLCEData_typemethod(

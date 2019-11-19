@@ -22,8 +22,8 @@
 
 
 #include "openAASDiscoveryServer.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_path.h"
+#include "ov_macros.h"
+#include "ov_path.h"
 
 
 OV_DLLFNCEXPORT OV_RESULT openAASDiscoveryServer_Part_AddDBWrapper_set(

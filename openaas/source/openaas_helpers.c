@@ -10,8 +10,8 @@
 #endif
 
 #include "openaas_helpers.h"
-#include "libov/ov_time.h"
-#include "libov/ov_logfile.h"
+#include "ov_time.h"
+#include "ov_logfile.h"
 
 OV_RESULT decodeMSG(const SRV_String* str, SRV_msgHeader** header, void** srvStruct, SRV_service_t* srvType, SRV_encoding_t *encoding){
 

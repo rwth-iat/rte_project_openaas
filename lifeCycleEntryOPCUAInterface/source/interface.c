@@ -22,8 +22,8 @@
 
 
 #include "lifeCycleEntryOPCUAInterface.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_result.h"
+#include "ov_macros.h"
+#include "ov_result.h"
 #include "nodeset_lifeCycleEntry.h"
 #include "ua_lifeCycleEntry_generated.h"
 

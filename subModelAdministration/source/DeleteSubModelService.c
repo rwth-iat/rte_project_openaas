@@ -22,7 +22,7 @@
 
 
 #include "subModelAdministration.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #include "helper.h"
 
 OV_DLLFNCEXPORT OV_RESULT subModelAdministration_DeleteSubModelService_CallMethod(      

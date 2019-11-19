@@ -22,9 +22,9 @@
 
 
 #include "opcuaSubscription.h"
-#include "libov/ov_association.h"
+#include "ov_association.h"
 
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 
 OV_IMPL_LINK(opcuaSubscription_settings)
 OV_IMPL_UNLINK(opcuaSubscription_settings)

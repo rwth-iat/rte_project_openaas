@@ -23,9 +23,9 @@
 
 #include "propertyValueStatement.h"
 #include "propertyValueStatement_helpers.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #include "stdfb_comp_macros.h"
-#include "libov/ov_path.h"
+#include "ov_path.h"
 
 
 // if any1 > any2

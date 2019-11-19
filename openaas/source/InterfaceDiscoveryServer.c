@@ -22,7 +22,7 @@
 
 
 #include "openaas.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 
 OV_INSTPTR_openaas_InterfaceDiscoveryServer pInterfaceDiscoveryServer = NULL;
 

@@ -22,9 +22,9 @@
 
 
 #include "Databases.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #include "sqlite3.h"
-#include "libov/ov_logfile.h"
+#include "ov_logfile.h"
 #include <stdio.h>
 
 

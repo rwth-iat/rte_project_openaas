@@ -22,8 +22,8 @@
 
 
 #include "openaas.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_object.h"
+#include "ov_macros.h"
+#include "ov_object.h"
 #include "openaas_helpers.h"
 #include "jsonparsing.h"
 #include "fb_database.h"

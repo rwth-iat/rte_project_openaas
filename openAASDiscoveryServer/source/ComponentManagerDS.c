@@ -22,10 +22,10 @@
 
 
 #include "openAASDiscoveryServer.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #include "MessageSys_helpers.h"
 #include "fb_database.h"
-#include "libov/ov_result.h"
+#include "ov_result.h"
 
 
 OV_DLLFNCEXPORT OV_RESULT openAASDiscoveryServer_ComponentManagerDS_constructor(

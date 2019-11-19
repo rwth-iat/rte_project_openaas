@@ -22,7 +22,7 @@
 
 
 #include "openaasOPCUAInterface.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #include "opcua_helpers.h"
 #include "ua_lifeCycleEntry_generated_encoding_binary.h"
 #include "ua_lifeCycleEntry_generated_handling.h"

@@ -22,7 +22,7 @@
 
 
 #include "DSServices.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #include "service_helper.h"
 
 OV_DLLFNCEXPORT OV_RESULT DSServices_DSUnregistrationServiceType1_executeService(OV_INSTPTR_openAASDiscoveryServer_DSService pinst, const json_data JsonInput, OV_STRING *JsonOutput, OV_STRING *errorMessage) {

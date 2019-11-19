@@ -22,9 +22,9 @@
 
 
 #include "propertyValueStatement.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_time.h"
-#include "libov/ov_path.h"
+#include "ov_macros.h"
+#include "ov_time.h"
+#include "ov_path.h"
 
 
 OV_DLLFNCEXPORT void propertyValueStatement_HMIHelperPVSL_typemethod(

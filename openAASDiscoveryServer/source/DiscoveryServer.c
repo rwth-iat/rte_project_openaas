@@ -22,14 +22,14 @@
 
 
 #include "openAASDiscoveryServer.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #include <pthread.h>
 #include "MessageSys_helpers.h"
-#include "libov/ov_logfile.h"
-#include "libov/ov_result.h"
-#include "libov/ov_path.h"
+#include "ov_logfile.h"
+#include "ov_result.h"
+#include "ov_path.h"
 #include "json_helper.h"
-#include "libov/ov_time.h"
+#include "ov_time.h"
 
 #if OV_SYSTEM_NT
 	#include <windows.h>

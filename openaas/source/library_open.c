@@ -23,12 +23,12 @@
 #undef ov_library_open_openaas
 #endif
 
-#include "libov/ov_macros.h"
-#include "libov/ov_result.h"
-#include "libov/ov_logfile.h"
-#include "libov/ov_memstack.h"
-#include "libov/ov_result.h"
-#include "libov/ov_time.h"
+#include "ov_macros.h"
+#include "ov_result.h"
+#include "ov_logfile.h"
+#include "ov_memstack.h"
+#include "ov_result.h"
+#include "ov_time.h"
 
  OV_RESULT ov_library_setglobalvars_openaas_new(void) {
 	OV_RESULT result = OV_ERR_OK;

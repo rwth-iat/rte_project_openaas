@@ -22,8 +22,8 @@
 
 
 #include "openAASDiscoveryServer.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_result.h"
+#include "ov_macros.h"
+#include "ov_result.h"
 #include "MessageSys_helpers.h"
 
 OV_DLLFNCEXPORT OV_RESULT openAASDiscoveryServer_TestClient_SendSecurityMessage_set(

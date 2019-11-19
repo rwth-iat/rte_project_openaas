@@ -22,10 +22,10 @@
 
 
 #include "lifeCycleEntry.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #include "identification_helpers.h"
-#include "libov/ov_logfile.h"
-#include "libov/ov_result.h"
+#include "ov_logfile.h"
+#include "ov_result.h"
 
 OV_DLLFNCEXPORT LCEStatusCode lce_LifeCycleArchive_ovresultToPVSStatusCode(OV_RESULT result) {
 	switch(result){

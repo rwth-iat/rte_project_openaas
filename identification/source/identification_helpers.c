@@ -10,8 +10,8 @@
 #endif
 
 #include "identification_helpers.h"
-#include "libov/ov_string.h"
-#include "libov/ov_database.h"
+#include "ov_string.h"
+#include "ov_database.h"
 
 OV_DLLFNCEXPORT OV_BOOL IdentificationTypeEqual(IdentificationType *Id1, IdentificationType *Id2){
     if (Id1->IdType == Id2->IdType){

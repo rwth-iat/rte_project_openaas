@@ -23,9 +23,9 @@
 
 #include "openaas.h"
 #include "MessageSys.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_path.h"
-#include "libov/ov_result.h"
+#include "ov_macros.h"
+#include "ov_path.h"
+#include "ov_result.h"
 OV_DLLFNCEXPORT void openaas_simpleMessageCreator_typemethod(
 	OV_INSTPTR_fb_functionblock	pfb,
 	OV_TIME						*pltc

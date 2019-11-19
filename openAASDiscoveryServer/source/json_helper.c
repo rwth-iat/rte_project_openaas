@@ -3,7 +3,7 @@
 #include <stddef.h>
 #include <string.h>
 #include <stdlib.h>
-#include "libov/ov_logfile.h"
+#include "ov_logfile.h"
 
 
 int jsoneq(const char *json, const jsmntok_t *tok, const char *s) {

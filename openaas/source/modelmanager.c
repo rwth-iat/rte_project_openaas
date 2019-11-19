@@ -22,7 +22,7 @@
 
 
 #include "openaas.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 #include "openaas_helpers.h"
 
 extern OV_INSTPTR_openaas_InterfaceDiscoveryServer pInterfaceDiscoveryServer;

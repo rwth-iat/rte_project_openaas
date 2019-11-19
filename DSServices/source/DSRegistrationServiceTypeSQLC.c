@@ -24,7 +24,7 @@
 #include "DSServices.h"
 #include "json_helper.h"
 #include "service_helper.h"
-#include "libov/ov_macros.h"
+#include "ov_macros.h"
 
 struct endpoint{
 	OV_STRING protocolType;
