@@ -1,0 +1,4 @@
+
+add_ov_library(openaasOPCUAInterface)
+ov_library_includes(openaasOPCUAInterface ov fb opcua openaas identificationOPCUAInterface propertyValueStatementOPCUAInterface lifeCycleEntryOPCUAInterface servicesOPCUAInterface)
+

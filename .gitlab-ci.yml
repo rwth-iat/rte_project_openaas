@@ -1,0 +1,38 @@
+image: registry.git.rwth-aachen.de/acplt/rte-tools/rte-build-docker-image/image
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+build:
+  stage: build
+  script:
+    - mkdir build
+    - cd build
+    - cmake ..
+    - make -j$(nproc)
+
+build-win32-x64:
+  stage: build
+  script:
+    - mkdir build
+    - cd build
+    - cmake ..
+    - make -j$(nproc) ov_codegen
+    - cd ..
+    - mkdir build-win32
+    - cd build-win32
+    - cmake -DCMAKE_TOOLCHAIN_FILE=../rte/cmake/mingw-w64-x86_64.cmake -DOV_CODEGEN_PATH="../build/rte/core/codegen/ov_codegen" ..
+    - make -j$(nproc)
+
+build-linux-armhf:
+  stage: build
+  script:
+    - mkdir build
+    - cd build
+    - cmake ..
+    - make -j$(nproc) ov_codegen
+    - cd ..
+    - mkdir build-win32
+    - cd build-win32
+    - cmake -DCMAKE_TOOLCHAIN_FILE=../rte/cmake/gcc-linux-armhf.cmake -DOV_CODEGEN_PATH="../build/rte/core/codegen/ov_codegen" ..
+    - make -j$(nproc)

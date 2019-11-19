@@ -1,0 +1,4 @@
+
+add_ov_library(subModelLifeCycleEntry)
+ov_library_includes(subModelLifeCycleEntry ov lifeCycleEntry services propertyValueStatement openaas)
+

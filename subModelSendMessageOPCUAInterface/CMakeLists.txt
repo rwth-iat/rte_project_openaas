@@ -1,0 +1,4 @@
+
+add_ov_library(subModelSendMessageOPCUAInterface)
+ov_library_includes(subModelSendMessageOPCUAInterface ov opcua subModelSendMessage openaasOPCUAInterface servicesOPCUAInterface)
+

@@ -1,0 +1,4 @@
+
+add_ov_library(subModelAdministrationOPCUAInterface)
+ov_library_includes(subModelAdministrationOPCUAInterface ov opcua subModelAdministration openaasOPCUAInterface servicesOPCUAInterface)
+

@@ -1,0 +1,4 @@
+
+add_ov_library(lifeCycleEntryOPCUAInterface)
+ov_library_includes(lifeCycleEntryOPCUAInterface ov lifeCycleEntry identificationOPCUAInterface)
+

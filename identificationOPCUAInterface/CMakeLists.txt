@@ -1,0 +1,4 @@
+
+add_ov_library(identificationOPCUAInterface)
+ov_library_includes(identificationOPCUAInterface ov fb opcua identification)
+

@@ -1,0 +1,4 @@
+
+add_ov_library(subModelDiscoveryOPCUAInterface)
+ov_library_includes(subModelDiscoveryOPCUAInterface ov opcua subModelDiscovery openaasOPCUAInterface servicesOPCUAInterface)
+

@@ -1,0 +1,4 @@
+
+add_ov_library(propertyValueStatementOPCUAInterface)
+ov_library_includes(propertyValueStatementOPCUAInterface ov propertyValueStatement identificationOPCUAInterface)
+

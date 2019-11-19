@@ -9,6 +9,7 @@ LIBRARY openAASDiscoveryServerHTTP
 	AUTHOR    = ""; 
 	COPYRIGHT = "";
 	COMMENT   = "";
+	LIBRARY_OPEN;
 	
 	/**
 		Documentation of openAASDiscoveryServerHTTPExt.

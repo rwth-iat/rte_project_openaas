@@ -1,0 +1,4 @@
+
+add_ov_library(openAASDiscoveryServerHTTP)
+ov_library_includes(openAASDiscoveryServerHTTP ov kshttp MessageSys openaas openAASDiscoveryServer)
+

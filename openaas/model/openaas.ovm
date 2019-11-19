@@ -13,6 +13,7 @@ LIBRARY openaas
     AUTHOR    = "Torben Deppe";
     COPYRIGHT = "";
     COMMENT   = "";
+    LIBRARY_OPEN;
      
 	/**
 		Documentation of aas.

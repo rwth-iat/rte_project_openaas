@@ -1,0 +1,4 @@
+
+add_ov_library(subModelLifeCycleEntryOPCUAInterface)
+ov_library_includes(subModelLifeCycleEntryOPCUAInterface ov opcua subModelLifeCycleEntry openaasOPCUAInterface)
+

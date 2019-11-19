@@ -9,6 +9,7 @@ LIBRARY openaasHTTP
 	AUTHOR    = "";
 	COPYRIGHT = ""; 
 	COMMENT   = "";
+	LIBRARY_OPEN;
 	
 	/**
 		Documentation of openaasHTTPExt.

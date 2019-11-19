@@ -13,9 +13,9 @@
 #include "lifeCycleEntry_helpers.h"
 #include "servicestructs.h"
 #include "propertyValueStatement_helpers.h"
-#include "libov/ov_macros.h"
-#include "libov/ov_path.h"
-#include "libov/ov_result.h"
+#include "ov_macros.h"
+#include "ov_path.h"
+#include "ov_result.h"
 
 // modelmanager functions
 typedef AASStatusCode UA_FNC_CREATEAAS(IdentificationType aasId, OV_STRING aasName, IdentificationType assetId);
