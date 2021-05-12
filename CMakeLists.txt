@@ -27,7 +27,6 @@ add_subdirectory(lifeCycleEntry)
 add_subdirectory(lifeCycleEntryOPCUAInterface)
 add_subdirectory(propertyValueStatement)
 add_subdirectory(propertyValueStatementOPCUAInterface)
-add_subdirectory(services)
 add_subdirectory(servicesOPCUAInterface)
 
 
